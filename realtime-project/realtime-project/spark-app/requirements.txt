@@ -1,0 +1,22 @@
+# spark-app/requirements.txt
+
+# --- Core Libraries for the Pipeline ---
+# These are needed for Spark and Kafka to communicate.
+kafka-python==2.0.2
+
+
+# --- Model Libraries ---
+# Add or remove these lines based on YOUR Python script's imports.
+
+# For Natural Language Toolkit (tokenization, stopwords, etc.)
+nltk
+
+# For traditional ML models like Naive Bayes, Logistic Regression
+scikit-learn
+
+# For deep learning models like BERT or other transformers
+# transformers
+# torch
+
+# If you use pandas for any data manipulation
+pandas
