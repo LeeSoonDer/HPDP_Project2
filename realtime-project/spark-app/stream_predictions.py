@@ -59,7 +59,7 @@ print(f"✅ Pre-trained pipeline model loaded from {model_path}")
 # 3. Read from Kafka Stream
 # --------------------------------------------
 KAFKA_TOPIC = "twitter_topic"
-KAFKA_SERVER = "kafka:9092"
+KAFKA_SERVER = "kafka:9093"
 print(f"Subscribing to Kafka topic: {KAFKA_TOPIC}")
 
 kafka_df = spark.readStream \
