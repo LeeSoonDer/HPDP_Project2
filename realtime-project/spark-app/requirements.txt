@@ -2,7 +2,6 @@
 
 # --- Core Libraries for the Pipeline ---
 # These are needed for Spark and Kafka to communicate.
-pyspark==3.5.1
 kafka-python==2.0.2
 elasticsearch==8.5.3
 
